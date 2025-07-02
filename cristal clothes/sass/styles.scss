@@ -1,0 +1,58 @@
+    @use "header";
+    @use "variable";
+
+
+main{
+    .container-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    align-items: center;
+    max-width: 1000px;
+    justify-content: center;
+    margin: 0 auto;
+    .item:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+    }
+}
+
+    &:hover {
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+.carousel {
+    background-color: transparent;
+    }
+    img {
+        width: auto;
+        height: 200px;
+        object-fit: cover;
+        display: flex;
+        margin: 0 auto;
+
+        &:hover {
+        transform: scale(1.2);
+        }
+    }
+
+    .info-product {
+        h2 {
+        font-size: 1.2rem;
+        }
+    }
+
+.price {
+        margin: 5px 0;
+        }
+
+    button {
+        padding: 10px;
+        background-color: rgb(241, 178, 178);
+            &:hover {
+            text-decoration: line-through;
+        }
+    }
+
+
+
+}

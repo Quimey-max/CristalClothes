@@ -7,10 +7,10 @@ header{
 }
 
 body {
-  background-color: rgb(255, 207, 207) !important;
+background-color: rgb(255, 207, 207) !important;
 }
 .carousel {
-  background-color: transparent;
+background-color: transparent;
 }
 
 *{margin: 0;
